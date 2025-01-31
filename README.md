@@ -4,7 +4,7 @@ modrinth:
   source_url: "https://github.com/Royal5074/xtremely-optimized/"
   discord_url: "https://discord.gg/2sEahV9TXK"
 ---
-# Xtremely<font color="#0000FF">Optimized</font>
+# Xtremely<font color="#0000ff">Optimized</font>
 
 <center>
 
