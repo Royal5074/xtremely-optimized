@@ -1,6 +1,6 @@
 ---
 modrinth:
-  issues_url: "https://github.com/Royal5074/xtremely-optimized/issues/new/choose"
+  issues_url: "https://github.com/Royal5074/xtremely-optimized/issues/new"
   source_url: "https://github.com/Royal5074/xtremely-optimized/"
   discord_url: "https://discord.gg/2sEahV9TXK"
 ---
