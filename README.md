@@ -1,7 +1,7 @@
 ---
 modrinth:
-  issues_url: "https://github.com/Royal5074/xtremely-optimized/issues/new"
-  source_url: "https://github.com/Royal5074/xtremely-optimized/"
+  issues_url: "https://github.com/mptamilan/xtremely-optimized/issues/new"
+  source_url: "https://github.com/mptamilan/xtremely-optimized/"
   discord_url: "https://discord.gg/2sEahV9TXK"
 ---
 # Xtremely<font color="#0000ff">Optimized</font>
@@ -31,7 +31,7 @@ You are expected to add any non-optimization mods you want, yourself. If you fac
 
 All optimizations in the modpack are based on [**OptimimFuse**](https://modrinth.com/modpack/optimum-fuse).
 
-If you find a bug or want to suggest any feature, you can issue a [**🐞Bug Report | 💡Suggestion**](https://github.com/Royal5074/xtremely-optimized/issues/new/choose). Alternatively, we have a [**Discord**](https://discord.gg/2sEahV9TXK) server.
+If you find a bug or want to suggest any feature, you can issue a [**🐞Bug Report | 💡Suggestion**](https://github.com/mptamilan/xtremely-optimized/issues/new/choose). Alternatively, we have a [**Discord**](https://discord.gg/2sEahV9TXK) server.
 
 ***
 
@@ -73,4 +73,4 @@ ii) **`beta`**
 You can find all the mods included in this modpack under the `Dependencies` section, on the **Modrinth Versions** page.
 
 ## 📜License
-### Check the complete license here: [**Apache License 2.0**](https://raw.githubusercontent.com/Royal5074/xtremely-optimized/refs/heads/main/LICENSE)!
+### Check the complete license here: [**Apache License 2.0**](mptamilan)!
