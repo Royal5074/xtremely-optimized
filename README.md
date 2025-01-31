@@ -73,4 +73,4 @@ ii) **`beta`**
 You can find all the mods included in this modpack under the `Dependencies` section, on the **Modrinth Versions** page.
 
 ## 📜License
-### Check the complete license here: [**Apache License 2.0**](https://raw.githubusercontent.com/Royal5075/xtremely-optimized/main/LICENSE)!
+### Check the complete license here: [**Apache License 2.0**](https://raw.githubusercontent.com/Royal5074/xtremely-optimized/refs/heads/main/LICENSE)!
