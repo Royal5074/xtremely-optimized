@@ -73,4 +73,4 @@ ii) **`beta`**
 You can find all the mods included in this modpack under the `Dependencies` section, on the **Modrinth Versions** page.
 
 ## 📜License
-### Check the complete license here: [**Apache License 2.0**](mptamilan)!
+### Check the complete license here: [**Apache License 2.0**](https://raw.githubusercontent.com/mptamilan/xtremely-optimized/refs/heads/main/LICENSE)!
