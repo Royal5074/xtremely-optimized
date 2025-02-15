@@ -21,11 +21,20 @@ jobs:
       - name: Checkout sources
         uses: actions/checkout@v4
 
+      - name: Debug - Check if modrinth.index.json Exists
+        run: |
+          if [ ! -f "modrinth/fabric/1.21.4/modrinth.index.json" ]; then
+            echo "❌ ERROR: modrinth.index.json is missing!"
+            exit 1
+          fi
+          echo "✅ modrinth.index.json exists!"
+          cat modrinth/fabric/1.21.4/modrinth.index.json
+
       - name: Zip modpack for Modrinth
         run: |
           mkdir -p ${{ github.workspace }}/build
           cd modrinth/fabric/1.21.4
-          zip -r ${{ github.workspace }}/build/XtremelyOptimized-${{ inputs.version }}+fabric.1.21.4.mrpack . 
+          zip -r ${{ github.workspace }}/build/XtremelyOptimized-${{ inputs.version }}+fabric.1.21.4.mrpack . -x "*.DS_Store"
 
       - name: Debug - List Files After Zipping
         run: ls -R ${{ github.workspace }}/build
@@ -75,7 +84,7 @@ jobs:
         run: |
           mkdir -p ${{ github.workspace }}/build
           cd modrinth/fabric/1.21.4
-          zip -r ${{ github.workspace }}/build/XtremelyOptimized-${{ inputs.version }}+fabric.1.21.4.mrpack .
+          zip -r ${{ github.workspace }}/build/XtremelyOptimized-${{ inputs.version }}+fabric.1.21.4.mrpack . -x "*.DS_Store"
 
       - name: Debug - List Files Before Upload
         run: ls -R ${{ github.workspace }}/build
