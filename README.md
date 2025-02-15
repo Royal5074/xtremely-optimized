@@ -67,9 +67,6 @@ Xtremely Optimized is a **lightweight, high-performance modpack** designed to **
 ### **Q: What Minecraft version does this support?**  
 A: The modpack is designed for **Minecraft 1.21.4** and newer updates.  
 
-### **Q: Can I play this modpack on multiplayer servers?**  
-A: Yes! Xtremely Optimized works **on Fabric-based servers** without any issues.  
-
 ### **Q: Is OptiFine required?**  
 A: **No!** Instead, this pack includes **Iris Shaders**, which supports shaders better than OptiFine **without FPS drops**.  
 
