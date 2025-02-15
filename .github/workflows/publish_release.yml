@@ -21,11 +21,11 @@ jobs:
       - name: Checkout sources
         uses: actions/checkout@v4
 
-      - name: Zip fabric/1.21.4
+      - name: Zip modpack for Modrinth
         uses: vimtor/action-zip@v1.2
         with:
-          files: modrinth/fabric/1.21.4
-          dest: XtremelyOptimized ${{ inputs.version }}+fabric.1.21.4.mrpack
+          files: modrinth/fabric/1.21.4/*
+          dest: ${{ github.workspace }}/XtremelyOptimized-${{ inputs.version }}+fabric.1.21.4.mrpack
 
       - name: Upload to Github
         uses: actions/upload-artifact@v4
@@ -34,7 +34,7 @@ jobs:
           path: ${{ github.workspace }}/*.mrpack
 
       - if: ${{ inputs.fabric-1-21-4 }}
-        name: Publish fabric/1.21.4
+        name: Publish fabric/1.21.4 to Modrinth
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
           modrinth-id: ${{ secrets.MODRINTH_PROJECT_ID }}
@@ -42,7 +42,7 @@ jobs:
           modrinth-token: ${{ secrets.MODRINTH_API_KEY }}
 
           files: |
-            ${{ github.workspace }}/*fabric.1.21.4.mrpack
+            ${{ github.workspace }}/*.mrpack
 
           name: XtremelyOptimized ${{ inputs.version }}+fabric.1.21.4
           version: ${{ inputs.version }}+fabric.1.21.4
@@ -68,13 +68,13 @@ jobs:
         uses: actions/checkout@v4
 
       - if: ${{ inputs.fabric-1-21-4 }}
-        name: Mrpack fabric/1.21.4
+        name: Zip modpack for GitHub Release
         uses: vimtor/action-zip@v1.2
         with:
-          files: modrinth/fabric/1.21.4
-          dest: XtremelyOptimized ${{ inputs.version }}+fabric.1.21.4.mrpack
+          files: modrinth/fabric/1.21.4/*
+          dest: ${{ github.workspace }}/XtremelyOptimized-${{ inputs.version }}+fabric.1.21.4.mrpack
 
-      - name: Publish Packs
+      - name: Publish to GitHub Releases
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
           github-tag: ${{ inputs.version }}
