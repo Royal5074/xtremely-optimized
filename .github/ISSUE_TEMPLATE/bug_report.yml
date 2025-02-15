@@ -1,0 +1,35 @@
+name: "Bug Report"
+description: "Report an issue with the modpack."
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "### Please describe the bug and steps to reproduce it."
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: "Describe the Bug"
+      description: "What happens? What should happen instead?"
+      placeholder: "e.g., Game crashes when opening the inventory..."
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: "How can we reproduce this issue?"
+      placeholder: "1. Open the game
+2. Open inventory
+3. Crash occurs"
+
+  - type: input
+    id: game_version
+    attributes:
+      label: "Game Version"
+      description: "Which Minecraft version are you using?"
+
+  - type: input
+    id: modpack_version
+    attributes:
+      label: "Modpack Version"
+      description: "Which version of the modpack are you using?"
