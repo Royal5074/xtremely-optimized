@@ -98,4 +98,4 @@ You're free to modify and share, but **please credit the original creators**.
 📂 [GitHub Repository](https://github.com/mptamilan/xtremely-optimized)  
 🎮 [Join Our Discord](https://discord.gg/2sEahV9TXK)  
 
-🚀 **Enjoy Minecraft like never before with Xtremely Optimized!**
+🚀 **Enjoy Minecraft like never before with Xtremely Optimized!.**
