@@ -17,7 +17,7 @@ glintSpeed:0.5
 damageTiltStrength:1.0
 enableVsync:false
 modelPart_cape:false
-particles:2
+particles:1
 toggleSprint:false
 soundDevice:""
 mouseSensitivity:0.5
@@ -27,7 +27,7 @@ advancedItemTooltips:true
 key_key.swapOffhand:key.keyboard.f
 menuBackgroundBlurriness:5
 modelPart_hat:true
-entityShadows:true
+entityShadows:false
 touchscreen:false
 telemetryOptInExtra:false
 key_key.freecam.configGui:key.keyboard.unknown
@@ -43,7 +43,7 @@ rotateWithMinecart:false
 key_key.hotbar.8:key.keyboard.8
 key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
 fullscreen:off
-renderDistance:2
+renderDistance:4
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
 key_iris.keybind.shaderPackSelection:key.keyboard.o
@@ -93,10 +93,10 @@ japaneseGlyphVariants:false
 hideServerAddress:false
 glDebugVerbosity:1
 modelPart_right_pants_leg:true
-maxFps:260
-renderClouds:"false"
+maxFps:999
+renderClouds:false
 key_key.nuit.toggle:key.keyboard.unknown
-guiScale:0
+guiScale:2
 forceUnicodeFont:false
 key_key.fbp.open_settings:key.keyboard.i
 biomeBlendRadius:1
@@ -153,7 +153,7 @@ invertYMouse:false
 modelPart_right_sleeve:true
 key_key.command:key.keyboard.slash
 key_key.screenshot:key.keyboard.f2
-fov:1.0
+fov:1.1
 key_key.hotbar.9:key.keyboard.9
 soundCategory_neutral:1.0
 inactivityFpsLimit:"afk"

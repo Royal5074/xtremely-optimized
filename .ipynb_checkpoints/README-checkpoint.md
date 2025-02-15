@@ -30,14 +30,14 @@ Xtremely Optimized is a **lightweight, high-performance modpack** designed to **
 - 🚀 **Lithium** – Optimized physics, AI, and tick performance.  
 - 🔥 **Sodium** – The best FPS-boosting rendering mod.  
 - ⚡ **FerriteCore** – Cuts RAM usage in half.  
-- 🔄 **Dynamic FPS** – Reduces background lag and improves focus performance.  
-- 🏎️ **ImmediatelyFast** – Enhances rendering speed for more stable FPS.  
-- 📉 **More Culling** – Improves rendering efficiency to save system resources.  
+- 🌍 **Starlight** – Speeds up world generation & lighting.  
+- 🔌 **Krypton** – Faster network performance for smoother multiplayer.  
 
 ### **🎨 Visual Enhancements (No FPS Drop!)**  
-- 🖥️ **Iris Shaders** – Enables high-performance shaders as an OptiFine replacement.  
+- 🖥️ **Iris Shaders** – Shaders without lag, replaces OptiFine.  
+- 🎛️ **Indium** – Ensures full Sodium compatibility.  
+- 🔍 **BetterF3** – A modern, customizable debug screen.  
 - 📜 **No Chat Reports** – Keeps multiplayer safe & private.  
-- 🖥️ **Custom Splash Screen** – Allows personalized loading screen customization.  
 
 📝 *Check out the full mod list on [Modrinth](https://modrinth.com/modpack/xtremely-optimized).*  
 
@@ -101,4 +101,5 @@ You're free to modify and share, but **please credit the original creators**.
 📂 [GitHub Repository](https://github.com/mptamilan/xtremely-optimized)  
 🎮 [Join Our Discord](https://discord.gg/2sEahV9TXK)  
 
-🚀 **Enjoy Minecraft like never before with Xtremely Optimized!**
+🚀 **Enjoy Minecraft like never before with Xtremely Optimized!**  
+

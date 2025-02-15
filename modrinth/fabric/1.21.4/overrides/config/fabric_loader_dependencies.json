@@ -8,7 +8,7 @@
         },
         "minecraft": {
             "+recommends": {
-                "Xtremely Optimized": ">1.0.0"
+                "Xtremely Optimized": ">2.0.0"
             }
         }
     }
