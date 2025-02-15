@@ -1,76 +1,105 @@
----
-modrinth:
-  issues_url: "https://github.com/mptamilan/xtremely-optimized/issues/new"
-  source_url: "https://github.com/mptamilan/xtremely-optimized/"
-  discord_url: "https://discord.gg/2sEahV9TXK"
----
-# Xtremely<font color="#0000ff">Optimized</font>
+<div align="center">
 
-<center>
+# ⚡ Xtremely Optimized  
+### **🚀 The Ultimate Performance Modpack for Fabric**  
+**Boost FPS • Enhance Graphics • Reduce Lag**  
 
-<img alt="Logo" width="100px" src="https://cdn.modrinth.com/data/cached_images/ac352b3a2e80cb984f98edffaa98b46cdb9ece8b.png">
+![Modrinth](https://img.shields.io/modrinth/dt/xtremely-optimized?color=brightgreen&label=Downloads&logo=modrinth)  
+![Version](https://img.shields.io/github/v/release/mptamilan/xtremely-optimized?label=Latest%20Version)  
+[![Modrinth Page](https://img.shields.io/badge/View%20on-Modrinth-brightgreen?style=for-the-badge&logo=modrinth)](https://modrinth.com/modpack/xtremely-optimized)  
 
-***
+</div>  
 
-[![Discord](https://img.shields.io/badge/Discord-Server-%2300AF5C?style=for-the-badge&logo=discord&logoColor=%23fff&color=%235865F2)](https://discord.gg/2sEahV9TXK)
-[![Modrinth](https://img.shields.io/badge/On-Modrinth-%2300AF5C?style=for-the-badge&logo=modrinth)](https://modrinth.com/modpack/xtremely-optimized)
+---  
 
-</center>
+## 📌 About Xtremely Optimized  
 
-***
+Xtremely Optimized is a **lightweight, high-performance modpack** designed to **maximize FPS, improve world loading, and enhance graphics**—all while keeping the classic Minecraft feel. It’s perfect for **low-end PCs and high-end gaming setups** alike! 🎮  
 
-## For Fabric📜
+🔹 **Massive FPS Boost** – No more lag spikes, smoother gameplay.  
+🔹 **Better World Loading** – Faster chunks, improved performance.  
+🔹 **Enhanced Graphics** – Beautiful visuals with **no FPS loss**.  
+🔹 **Multiplayer-Ready** – Play with friends, no chat reporting!  
+🔹 **Pre-Tuned Settings** – No tweaking required, just install & play!  
 
-An open-source modpack that improves the overall UX and the game's performance and visuals, while staying true to the vanilla Minecraft experience.
+---  
 
-While most performance-focused modpacks aim at higher FPS, this modpack focuses on optimizing the UX and stability, as well.
+## 🛠️ What’s Inside?  
 
-The modpack does not provide any QoL or OptiFine-parity mods, but some deliberately-selected mods to boost your gaming experience! Besides these optimization mods, the modpack also provides some essentials, like No Chat Reports.
+### **⚙️ Performance Mods**  
+- 🚀 **Lithium** – Optimized physics, AI, and tick performance.  
+- 🔥 **Sodium** – The best FPS-boosting rendering mod.  
+- ⚡ **FerriteCore** – Cuts RAM usage in half.  
+- 🌍 **Starlight** – Speeds up world generation & lighting.  
+- 🔌 **Krypton** – Faster network performance for smoother multiplayer.  
 
-You are expected to add any non-optimization mods you want, yourself. If you face any issues, you are free to ask for help on our Discord server.
+### **🎨 Visual Enhancements (No FPS Drop!)**  
+- 🖥️ **Iris Shaders** – Shaders without lag, replaces OptiFine.  
+- 🎛️ **Indium** – Ensures full Sodium compatibility.  
+- 🔍 **BetterF3** – A modern, customizable debug screen.  
+- 📜 **No Chat Reports** – Keeps multiplayer safe & private.  
 
-All optimizations in the modpack are based on [**OptimimFuse**](https://modrinth.com/modpack/optimum-fuse).
+📝 *Check out the full mod list on [Modrinth](https://modrinth.com/modpack/xtremely-optimized).*  
 
-If you find a bug or want to suggest any feature, you can issue a [**🐞Bug Report | 💡Suggestion**](https://github.com/mptamilan/xtremely-optimized/issues/new/choose). Alternatively, we have a [**Discord**](https://discord.gg/2sEahV9TXK) server.
+---  
 
-***
+## 📥 Installation Guide  
 
-<details id="versioning">
-<summary>🧪Versioning</summary>
+### **1️⃣ Install Fabric Loader**  
+- Download and install Fabric Loader from [FabricMC.net](https://fabricmc.net/use/).  
+- Choose **Minecraft 1.21.4** for best compatibility.  
 
-This project uses **semantic versioning**.
+### **2️⃣ Download the Modpack**  
+- Get the latest version from [Modrinth](https://modrinth.com/modpack/xtremely-optimized).  
+- OR download the latest **.zip** from [GitHub Releases](https://github.com/mptamilan/xtremely-optimized/releases).  
 
-**Format:** <center>`X`.`Y`.`Z`+`<loader>`.`<mc-version>`</center>
+### **3️⃣ Move to Mods Folder**  
+- Open Minecraft’s `mods` folder (`.minecraft/mods`).  
+- Drag and drop the downloaded `.jar` files inside.  
 
-**Definitions:**
+### **4️⃣ Launch & Play!**  
+- Start Minecraft with **Fabric Loader** and enjoy **a lag-free experience!** 🎮  
 
-(a) _Project Version_
+---  
 
-1. **`X`:** MAJOR version _<small>(Not likely to change; for a long time!)</small>_
-2. **`Y`:** MINOR version _<small>(Will change frequently; For new MC versions/Big updates)</small>_
-3. **`Y`:** PATCH version _<small>(Will change very frequently; Small changes/Mod updates/...)</small>_
+## ❓ Frequently Asked Questions (FAQ)  
 
-(b) _Build Metadata_
+### **Q: What Minecraft version does this support?**  
+A: The modpack is designed for **Minecraft 1.21.4** and newer updates.  
 
-1. **`<loader>`:** **Values:** `fabric` or `neo`.
-2. **`<mc-version>`:** **Examples:** `1.16.5`, `1.19.2`, `1.20.1` and so on...
+### **Q: Can I play this modpack on multiplayer servers?**  
+A: Yes! Xtremely Optimized works **on Fabric-based servers** without any issues.  
 
-***
+### **Q: Is OptiFine required?**  
+A: **No!** Instead, this pack includes **Iris Shaders**, which supports shaders better than OptiFine **without FPS drops**.  
 
-**Pre-release Versions' Format:** <center>`X`.`Y`.`Z`-`<pre-release>`+`<loader>`.`<mc-version>`</center>
+### **Q: How do I report issues or suggest mods?**  
+A: Open an issue on [GitHub Issues](https://github.com/mptamilan/xtremely-optimized/issues) or join our [Discord](https://discord.gg/2sEahV9TXK).  
 
-**`<pre-release>`:** _<small>(For untested/breaking changes/not ready for use versions)</small>_<br>
-**Values:**<br>
-i) **`alpha`**<br>
-ii) **`beta`**
+---  
 
-</details>
+## 🌟 Support & Contribute  
 
-***
+💡 Want to help improve Xtremely Optimized?  
+🔹 **Fork the repo** and submit PRs for improvements.  
+🔹 **Report bugs & suggest new mods** via [GitHub Issues](https://github.com/mptamilan/xtremely-optimized/issues).  
+🔹 **Join the community** on [Discord](https://discord.gg/2sEahV9TXK).  
+⭐ **Like the pack? Give it a ⭐ star on GitHub & Modrinth!**  
 
-## 🎲Mods Used
+---  
 
-You can find all the mods included in this modpack under the `Dependencies` section, on the **Modrinth Versions** page.
+## 📜 License  
 
-## 📜License
-### Check the complete license here: [**Apache License 2.0**](https://raw.githubusercontent.com/mptamilan/xtremely-optimized/refs/heads/main/LICENSE)!
+Xtremely Optimized is **open-source** and licensed under **Apache License 2.0**.  
+You're free to modify and share, but **please credit the original creators**.  
+
+---  
+
+## 🔗 Useful Links  
+
+📥 [Download on Modrinth](https://modrinth.com/modpack/xtremely-optimized)  
+📂 [GitHub Repository](https://github.com/mptamilan/xtremely-optimized)  
+🎮 [Join Our Discord](https://discord.gg/2sEahV9TXK)  
+
+🚀 **Enjoy Minecraft like never before with Xtremely Optimized!**  
+
