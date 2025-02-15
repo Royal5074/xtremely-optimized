@@ -86,7 +86,7 @@ jobs:
           name: XtremelyOptimized ${{ inputs.version }}
           version: ${{ inputs.version }}
           version-type: release
-          changelog: Check out the changelog for the respective version [**here**](https://modrinth.com/modpack/xtremely-optimized/changelog).
+          changelog: Check out the changelog about new release [**here**](https://modrinth.com/modpack/xtremely-optimized/changelog).
 
           retry-attempts: 2
           retry-delay: 10000
