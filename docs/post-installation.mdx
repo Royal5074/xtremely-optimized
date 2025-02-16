@@ -1,18 +1,69 @@
-# Post Installation Guide
+# Post Installation: Auto Modrinth & GitHub Publishing
 
-After installing **Xtremely Optimized**, follow these steps for the best experience:
+## Setting Up Automatic Publishing
 
-### 1. Adjust Video Settings
-- Lower render distance for better FPS.
-- Enable **fast rendering** options.
-- Disable unnecessary particles.
+After installing **Xtremely Optimized**, you can automate publishing updates to **Modrinth** and **GitHub Releases** using CI/CD workflows.
 
-### 2. Optimize Java Settings
-- Allocate 4-6GB RAM for smooth gameplay.
-- Use the latest Java 17+ version.
+### 1. Modrinth Auto-Publishing (GitHub Actions)
 
-### 3. Ensure Mod Compatibility
-- Avoid conflicting mods that impact performance.
-- Use only recommended optimization mods.
+1. Go to your repository **Settings** → **Secrets and Variables** → **Actions**.
+2. Add a new **Secret** called `MODRINTH_TOKEN` with your API key from [Modrinth](https://modrinth.com).
+3. Use this GitHub Actions workflow (`.github/workflows/modrinth-publish.yml`):
 
-You're now ready to enjoy the best Minecraft experience!
+```yaml
+name: Publish to Modrinth
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Publish to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: your-modrinth-project-id
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          files: your-modpack.zip
+```
+
+### 2. GitHub Auto-Publishing (Releases)
+
+1. Create a `.github/workflows/release.yml` file and add:
+
+```yaml
+name: Create GitHub Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: your-modpack.zip
+```
+
+### 3. Automating with Git Tags
+
+- To trigger a new release, push a tag:
+  ```bash
+  git tag v1.0.0
+  git push origin v1.0.0
+  ```
+
+Now, every new **release tag** will automatically publish to **Modrinth** and **GitHub Releases**.
+
