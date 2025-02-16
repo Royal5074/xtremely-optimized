@@ -1,7 +1,6 @@
 {
     "index.mdx": {"name": "Home", "icon": "Home"},
     "installation.mdx": {"name": "Installation", "icon": "Download"},
-    "post-installation.mdx": {"name": "Post Installation", "icon": "Settings"},
     "features.mdx": {"name": "Features", "icon": "List"},
     "configuration.mdx": {"name": "Configuration", "icon": "Settings"},
     "troubleshooting.mdx": {"name": "Troubleshooting", "icon": "Bug"},
