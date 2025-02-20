@@ -1,0 +1,108 @@
+name: Publish Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version'
+        required: true
+        type: string
+      fabric-1-21-1:
+        description: '1.21.1 Fabric'
+        required: true
+        type: boolean
+
+jobs:
+  publish-to-modrinth:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - name: Debug - Check if modrinth.index.json Exists
+        run: |
+          if [ ! -f "modrinth/fabric/1.21.1/modrinth.index.json" ]; then
+            echo "❌ ERROR: modrinth.index.json is missing!"
+            exit 1
+          fi
+          echo "✅ modrinth.index.json exists!"
+          cat modrinth/fabric/1.21.1/modrinth.index.json
+
+      - name: Zip modpack for Modrinth
+        run: |
+          mkdir -p ${{ github.workspace }}/build
+          cd modrinth/fabric/1.21.1
+          zip -r ${{ github.workspace }}/build/XtremelyOptimized-${{ inputs.version }}+fabric.1.21.1.mrpack . -x "*.DS_Store"
+
+      - name: Debug - List Files After Zipping
+        run: ls -R ${{ github.workspace }}/build
+
+      - name: Upload to Github
+        uses: actions/upload-artifact@v4
+        with:
+          name: Modrinth Releases
+          path: ${{ github.workspace }}/build/*.mrpack
+
+      - if: ${{ inputs.fabric-1-21-1 }}
+        name: Publish fabric/1.21.1 to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3.0
+        with:
+          modrinth-id: ${{ secrets.MODRINTH_PROJECT_ID }}
+          modrinth-featured: true
+          modrinth-token: ${{ secrets.MODRINTH_API_KEY }}
+
+          files: |
+            ${{ github.workspace }}/build/*.mrpack
+
+          name: XtremelyOptimized ${{ inputs.version }}+fabric.1.21.1
+          version: ${{ inputs.version }}+fabric.1.21.1
+          version-type: release
+          changelog-file: modrinth/fabric/1.21.1/CHANGELOG.md
+
+          loaders: |
+            fabric
+          game-versions: |
+            1.21.1
+          game-version-filter: releases
+
+          retry-attempts: 2
+          retry-delay: 10000
+          fail-mode: fail
+
+  publish-to-github:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - if: ${{ inputs.fabric-1-21-1 }}
+        name: Zip modpack for GitHub Release
+        run: |
+          mkdir -p ${{ github.workspace }}/build
+          cd modrinth/fabric/1.21.1
+          zip -r ${{ github.workspace }}/build/XtremelyOptimized-${{ inputs.version }}+fabric.1.21.1.mrpack . -x "*.DS_Store"
+
+      - name: Debug - List Files Before Upload
+        run: ls -R ${{ github.workspace }}/build
+
+      - name: Publish to GitHub Releases
+        uses: Kir-Antipov/mc-publish@v3.3.0
+        with:
+          github-tag: ${{ inputs.version }}
+          github-commitish: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          files: |
+            ${{ github.workspace }}/build/*.mrpack
+          name: XtremelyOptimized ${{ inputs.version }}
+          version: ${{ inputs.version }}
+          version-type: release
+          changelog: Check out the changelog about new release [**here**](https://modrinth.com/modpack/xtremely-optimized/changelog).
+
+          retry-attempts: 2
+          retry-delay: 10000
+          fail-mode: fail
