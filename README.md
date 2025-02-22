@@ -51,11 +51,10 @@ Xtremely Optimized is a **lightweight, high-performance modpack** designed to **
 
 ### **2️⃣ Download the Modpack**  
 - Get the latest version from [Modrinth](https://modrinth.com/modpack/xtremely-optimized).  
-- OR download the latest **.zip** from [GitHub Releases](https://github.com/mptamilan/xtremely-optimized/releases).  
 
 ### **3️⃣ Move to Mods Folder**  
 - Open Minecraft’s `mods` folder (`.minecraft/mods`).  
-- Drag and drop the downloaded `.jar` files inside.  
+- Drag and drop the downloaded `.mrpack` files inside.  
 
 ### **4️⃣ Launch & Play!**  
 - Start Minecraft with **Fabric Loader** and enjoy **a lag-free experience!** 🎮  
