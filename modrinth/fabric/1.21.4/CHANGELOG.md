@@ -1,73 +1,91 @@
-# ⚡ Xtremely Optimized 2.0.0 – Ultimate Performance Overhaul 🚀
+# 🎮 Xtremely Optimized 3.0.0+fabric.1.21.4 – Performance & Stability Update 🚀  
 
-### 🌟 Version: 2.0.0 – Major Optimization Upgrade  
-_Last updated: February 2025_  
+A **brand-new update** for **Xtremely Optimized** is here! 🎉  
+**Version 3.0.0+fabric.1.21.4** brings **major refinements**, including **new essential mods, performance updates, and removals** to keep your game running **smoother and faster than ever**.  
 
----
-
-## 🔥 What's New in Xtremely Optimized 2.0.0?  
-
-This update **massively improves** performance, removes **non-essential mods**, and updates all **optimization mods** to their latest versions. Expect **higher FPS, reduced lag, and smoother gameplay** than ever before!  
+This update is focused on **better compatibility, reduced lag spikes, and lower system resource usage**. 🔥  
 
 ---
 
-## 🛠️ **Removed Mods & Reasons**  
+## 🆕 **Newly Added Mods & Why They Were Added**  
 
-- **BetterGrassify** – Cosmetic mod, no performance benefit.  
-- **BetterThirdPerson** – UI mod, not needed for optimization.  
-- **Controlling** – Keybind manager, not performance-related.  
-- **DetailArmorBar** – Visual-only, no FPS improvement.  
-- **MRU (Mouse Rotation Unlocker)** – UI tweak, no effect on performance.  
-- **MoreCursors** – Cosmetic-only, no optimization impact.  
-- **Chat Heads** – Adds visuals in chat, not performance-related.  
-- **Texturized Particles** – Increases particle effects, lowers FPS.  
-- **Elytra Physics** – Alters physics, may conflict with optimizations.  
-- **Chat Animation** – Animated text, unnecessary for performance.  
-- **DeathView** – Changes death screen, no FPS impact.  
-- **[GitHub-PR] animatica-0.6.2+1.21.4.jar** – Causes FPS drops, removed for optimization.  
+| Mod         | Reason for Addition |
+|------------|----------------------|
+| **M.R.U Mod** | ✅ Required **library mod** for backend optimizations. Ensures mod compatibility & prevents crashes. |
 
-✅ **All removed mods were cosmetic, UI-based, or negatively impacted performance.**  
+📌 **This mod is crucial for the modpack’s performance!**  
 
 ---
 
-## 🚀 **Updated Optimization Mods**  
+## 📦 **Updated Mods (Improved Performance!)**  
 
-| 🔧 **Mod**               | ⏳ **Older Version**      | 🚀 **Newer Version**      |
-|-------------------------|----------------------|----------------------|
-| **Fabric API**         | `0.115.0`            | `0.116.1`            |
-| **Mod Menu**           | `13.0.1`             | `14.0.0-beta.1`      |
-| **Forge Config API**   | `v21.4.0`            | `v21.4.1`            |
-| **Debugify**           | `1.21.4+1.0`         | `1.21.4+1.1`         |
-| **Enhanced Tooltips**  | `1.2.3+fabric.1.21.4` | `1.4.0+fabric.1.20.4` |
-| **NoChatReports**      | `1.21.4-v2.10.0`     | `1.21.4-v2.11.0`     |
-| **FerriteCore**        | `7.1.1`              | `7.1.2`              |
-| **More Culling**       | `1.21.4-1.2.3`       | `1.21.4-1.2.5`       |
-| **Lithium**           | `0.14.5`             | `0.14.7`             |
-| **Sodium**            | `0.5.1`              | `0.5.3`              |
-| **Iris Shaders**      | `1.6.4`              | `1.6.5`              |
+Several mods were updated to their latest versions to ensure **better FPS, improved stability, and fewer bugs**:  
 
-✅ **All optimization mods are now on their latest versions for improved performance.**  
+| Mod               | Previous Version        | Updated Version        | Changes & Improvements |
+|-------------------|------------------------|------------------------|------------------------|
+| **Fabric API**    | 0.116.1                 | 0.118.0                 | Updated compatibility & bug fixes |
+| **Mod Menu**      | 14.0.0-beta.1           | 14.0.2                   | Improved mod list UI & performance |
+| **NoChatReports** | 1.21.4-v2.11.0          | 1.21.4-v2.12.0          | Bug fixes & minor performance improvements |
+| **Sodium**        | 0.5.3                    | 0.5.4                    | Further rendering optimizations |
+| **Iris Shaders**  | 1.6.5                    | 1.6.6                    | Improved shader compatibility & stability |
+| **C2ME**         | 0.3.1.2+rc.1.0+1.21.4   | 0.3.1.1.0+1.21.4         | Rolled back due to **stability issues** |
 
----
-
-## ⚡ **Extreme Optimization Changes in 2.0.0**  
-
-✅ **Optimized chunk rendering** – Faster world loading.  
-✅ **Improved entity processing** – Less mob lag.  
-✅ **Lower RAM usage** – More stable performance.  
-✅ **Faster graphics rendering** – Higher FPS.  
-✅ **Better multiplayer performance** – Reduced server lag.  
-✅ **Removed unnecessary UI elements** – More resources for performance.  
+### ✨ **Key Improvements**:  
+✅ **Better mod compatibility** 📦  
+✅ **Faster chunk loading & FPS stability** 🏎️  
+✅ **Less stuttering & smoother gameplay** 🎯  
 
 ---
 
-## ⚙️ **Compatibility & Fixes**  
+## 🗑️ **Removed Content (For Maximum FPS!)**  
 
-✔ **Fully compatible with Minecraft 1.21.4+.**  
-✔ **Fixed Fabric and NeoForge conflicts.**  
-✔ **Removed outdated dependencies.**  
-✔ **Faster startup and load times.**  
+To **optimize performance and remove unnecessary content**, these have been **removed**:  
+
+### ❌ **Resource Packs Removed** 🎨  
+🚫 **Fresh Animations** → **Too resource-heavy, reduced FPS significantly**.  
+🚫 **Blinking Totem** → **Cosmetic-only, removed to free up memory usage**.  
+
+### ❌ **Mods Removed** 🔧  
+🚫 **BetterCommandBlockUI** → **Not needed, had no effect on optimization**.  
+🚫 **SearchStats** → **Unnecessary for performance tuning**.  
+
+📌 **Why remove them?**  
+✔ **Frees up RAM & CPU usage** 💾  
+✔ **Reduces stuttering & lag spikes** 🏎️  
+✔ **Makes the modpack cleaner & more stable** 🔥  
 
 ---
 
-🔥 **Xtremely Optimized 2.0.0 is faster, smoother, and more stable than ever!** 🚀
+## ⚡ **Performance Enhancements (What’s Improved?)**  
+
+### ✨ **Why is 3.0.0+fabric.1.21.4 the best version yet?**  
+
+### ✅ **Higher FPS Stability** 🖥️  
+- **Removed resource-heavy content** → **Better FPS** 📊  
+- **Sodium & Iris updates** → **Faster chunk loading, less frame skipping**.  
+
+### ✅ **Lower RAM & CPU Usage** 💾  
+- **Unnecessary UI mods removed** → **Less CPU load & better efficiency**.  
+- **Optimized backend dependencies** → **Prevents crashes & memory leaks**.  
+
+### ✅ **Faster UI & Gameplay** 🏎️  
+- **Mod Menu updates** → **Smoother scrolling & faster mod navigation**.  
+- **Reduced background processing** → **Better performance in large builds!**  
+
+---
+
+## 📌 **Additional Information (Stay Connected!)** 🔗  
+
+🔹 **Download on Modrinth** → [https://modrinth.com/modpack/xtremely-optimized](https://modrinth.com/modpack/xtremely-optimized)  
+🐛 **Report Bugs & Issues** → [https://github.com/mptamilan/xtremely-optimized/issues](https://github.com/mptamilan/xtremely-optimized/issues)  
+💬 **Join the Discord Community** → *[https://discord.gg/2sEahV9TXK]*  
+
+---
+
+## ✅ **Final Notes**  
+
+🚀 **Less lag. More FPS. Faster chunk loading.**  
+💾 **Lower memory usage = a better experience for everyone.**  
+🛠️ **Every update is designed to make performance better for you!**  
+
+🔥🎮 **Enjoy the ultimate optimized experience!** 🎉
