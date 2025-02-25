@@ -43,22 +43,49 @@ Xtremely Optimized is a **lightweight, high-performance modpack** designed to **
 
 ---  
 
-## 📥 Installation Guide  
+## 🚀 Xtremely Optimized - Installation Guide
 
-### **1️⃣ Install Fabric Loader**  
-- Download and install Fabric Loader from [FabricMC.net](https://fabricmc.net/use/).  
-- Choose **Minecraft 1.21.4** for best compatibility.  
+### 🟢 Modrinth Launcher (Recommended)
+1. Open Modrinth Launcher.
+2. Go to the Browse tab.
+3. Search for "Xtremely Optimized".
+4. Click Install and wait for the download to finish.
+5. Go to the Library tab, select the modpack, and click Play ▶️.
 
-### **2️⃣ Download the Modpack**  
-- Get the latest version from [Modrinth](https://modrinth.com/modpack/xtremely-optimized).  
-- OR download the latest **.zip** from [GitHub Releases](https://github.com/mptamilan/xtremely-optimized/releases).  
+### 🔵 Prism Launcher / PolyMC
+1. Open Prism Launcher or PolyMC.
+2. Click Add Instance ➕.
+3. Go to the Modrinth tab.
+4. Search for "Xtremely Optimized".
+5. Select the latest version and click OK ✅ to install.
+6. Once installed, select the instance and click Launch 🚀.
 
-### **3️⃣ Move to Mods Folder**  
-- Open Minecraft’s `mods` folder (`.minecraft/mods`).  
-- Drag and drop the downloaded `.jar` files inside.  
+### 🟠 ATLauncher
+1. Open ATLauncher.
+2. Go to the Packs tab 📦.
+3. Click Add Modrinth Pack and search for "Xtremely Optimized".
+4. Select the latest version and click Install ⬇️.
+5. Once installed, select the instance and click Play ▶️.
 
-### **4️⃣ Launch & Play!**  
-- Start Minecraft with **Fabric Loader** and enjoy **a lag-free experience!** 🎮  
+## 🟡 CurseForge / Overwolf Launcher
+1. Open CurseForge Launcher.
+2. Click on Minecraft 🟩 and go to Browse Modpacks.
+3. Search for "Xtremely Optimized".
+4. Click Install ⬇️ and wait for the download to finish.
+5. Click Play ▶️ to launch.
+
+### 🔴 MultiMC
+1. Open MultiMC.
+2. Click Add Instance ➕.
+3. Select Import from Modrinth.
+4. Search for "Xtremely Optimized" and select the latest version.
+5. Click OK ✅, then launch the instance 🚀.
+
+### ⚡ Other Launcher
+1. Open Any Launcher.
+2. Find For Modpack install Section.
+3. Search "Xtremely Optimized" Find and Select Version And install.
+4. Click Play To Launch.
 
 ---  
 
@@ -98,4 +125,4 @@ You're free to modify and share, but **please credit the original creators**.
 📂 [GitHub Repository](https://github.com/mptamilan/xtremely-optimized)  
 🎮 [Join Our Discord](https://discord.gg/2sEahV9TXK)  
 
-🚀 **Enjoy Minecraft like never before with Xtremely Optimized!.**
+🚀 **Enjoy Minecraft like never before with Xtremely Optimized!**
