@@ -54,8 +54,8 @@ To **prevent crashes and improve performance**, the following were removed:
 ## 📌 **Additional Information (Stay Connected!)** 🔗  
 
 🔹 **Download on Modrinth** → [https://modrinth.com/modpack/xtremely-optimized](https://modrinth.com/modpack/xtremely-optimized)  
-🐛 **Report Bugs & Issues** → [https://github.com/mptamilan/xtremely-optimized/issues](https://github.com/mptamilan/xtremely-optimized/issues)  
-💬 **Join the Discord Community** → *[https://discord.gg/2sEahV9TXK]*  
+🐛 **Report Bugs & Issues** → [https://github.com/mptamilan/xtremely-optimized/issues](https://github.com/mptamilan/xtremely-optimized/issues)
+💬 **Join the Discord Community** → [https://discord.gg/2sEahV9TXK](https://discord.gg/2sEahV9TXK)
 
 ---
 
